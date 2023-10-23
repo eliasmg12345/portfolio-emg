@@ -1,7 +1,8 @@
-import styles from './Navbar.module.css'
 
 import { getImageUrl } from '../../utils'
 import { useState } from 'react'
+
+import styles from './Navbar.module.css'
 
 const Nabvar = () => {
     const [menuOpen, setMenuOpen] = useState(false)
