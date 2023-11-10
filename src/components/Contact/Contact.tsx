@@ -12,11 +12,11 @@ const Contact = () => {
             <ul className={styles.links}>
                 <li className={styles.link}>
                     <img src={getImageUrl('contact/emailIcon.png')} alt="Email Icon" />
-                    <a href="elias:vozofGod@gmail.com" target="_blank">vozofGod@gmail.com</a>
+                    <a href="email:vozofGod@gmail.com" target="_blank">vozofGod@gmail.com</a>
                 </li>
                 <li className={styles.link}>
                     <img src={getImageUrl('contact/linkedinIcon.png')} alt="Linkedin Icon" />
-                    <a href="https://www.linkedin.com/eliasmg" target="_blank">linkedin.com/eliasmg</a>
+                    <a href="https://www.linkedin.com/in/elias-mollericona/" target="_blank">linkedin.com/eliasmg</a>
                 </li>
                 <li className={styles.link}>
                     <img src={getImageUrl('contact/githubIcon.png')} alt="GiHub Icon" />
